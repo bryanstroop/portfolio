@@ -14,7 +14,6 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: white;
-    
 }
 
 p {
@@ -33,7 +32,9 @@ p {
 /* NAV BAR */
 
 nav {
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 1;
     padding: 30px 0;
     font-family: 'Permanent Marker', cursive;
     font-size: 1.5rem;
@@ -43,7 +44,7 @@ nav ul {
     list-style-type: none;
     text-align: right;
     margin-top: 75px;
-    margin-right: 30px;
+    margin-right: 5%;
 }
 
 nav li {
@@ -51,10 +52,10 @@ nav li {
 }
 
 .nav-icon {
-    z-index: 2;
+    z-index: 3;
     position: absolute;
     top: 30px;
-    right: 30px;
+    right: 5%;
     opacity: 0;
     transition: opacity 300ms;
 }
@@ -73,7 +74,7 @@ nav li {
 }
 
 .nav-bar {
-    z-index: 1;
+    z-index: 2;
     position: absolute;
     top: 0;
     height: 0;
@@ -107,5 +108,5 @@ header {
 /* MAIN */
 
 section {
-    margin: 100px 10%;
+    margin: 100px 15%;
 }
