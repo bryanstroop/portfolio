@@ -16,6 +16,10 @@ body {
     color: white;
 }
 
+main {
+    position: relative;
+}
+
 p {
     line-height: 2;
 }
@@ -33,6 +37,7 @@ p {
 
 nav {
     position: sticky;
+    position: -webkit-sticky;
     top: 0;
     z-index: 1;
     padding: 30px 0;
