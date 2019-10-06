@@ -15,6 +15,28 @@ body {
     font-weight: 400;
     background-color: #495369;
     color: white;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: center top;
+}
+
+@media only screen and (min-width: 700px) {
+    body {
+        background-size: 1224px;
+    }
+}
+
+@media only screen and (min-width: 1224px) {
+    body {
+        background-size: 1637px;
+    }
+}
+
+@media only screen and (min-width: 1637px) {
+    body {
+        background-size: cover;
+    }
 }
 
 main {
@@ -93,10 +115,6 @@ nav li {
 header {
     text-align: center;
     margin: 0;
-    background-image: url("background.jpg");
-    background-repeat: no-repeat;
-    background-size: 700px;
-    background-position: center top;
 }
 
 .header-img {
