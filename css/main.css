@@ -16,7 +16,6 @@ body {
     background-color: #495369;
     background-image: url("background.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     background-position: 100% 0;
     color: white;
