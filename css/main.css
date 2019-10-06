@@ -13,6 +13,7 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    background-color: #495369;
     color: white;
 }
 
@@ -25,9 +26,12 @@ p {
 }
 
 .hero-image {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
     background-image: url("background.jpg");
     background-color: #495369;
-    height: 500px;
     background-position: 100% 25%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,6 +116,6 @@ header {
 
 /* MAIN */
 
-section {
+.container {
     margin: 100px 15%;
 }
