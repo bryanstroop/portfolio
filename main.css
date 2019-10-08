@@ -1,0 +1,113 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    background-color: #495369;
+    color: white;
+}
+
+p {
+    line-height: 2;
+}
+
+/* NAV BAR */
+
+nav {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 1;
+    font-family: 'Shadows Into Light', cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+    margin-top: 75px;
+    margin-right: 10%;
+}
+
+nav li {
+    cursor: pointer;
+}
+
+.nav-icon {
+    z-index: 3;
+    position: absolute;
+    top: 30px;
+    right: 10%;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+.nav-icon:hover {
+    cursor: pointer;
+}
+
+.nav-closed {
+    color: #495369;
+}
+
+.active {
+    opacity: 1;
+    transition: opacity 300ms;
+}
+
+.nav-bar {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #495369;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
+    transition: all 300ms;
+}
+
+.nav-active {
+    height: 210px;
+    transition: all 300ms;
+    
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #495369;
+    color: white;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-img {
+    width: 75%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header-container {
+    width: 100%;
+}
+
+/* MAIN */
+
+.container {
+    margin: 30px 15%;
+}
